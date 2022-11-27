@@ -13,7 +13,7 @@ func Later() func(string) string {
 }
 
 func main() {
-	f := Later
+	f := Later()
 	fmt.Println(f("Hello")) // ' '
 	fmt.Println(f("My"))    // Hello
 	fmt.Println(f("name"))  // My
