@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// スライス
 // copy
 func main() {
 	sl := []int{100, 200}
