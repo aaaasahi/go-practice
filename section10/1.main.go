@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// ポインタ
+
 func Double(i int) {
   i = i * 2
 }
